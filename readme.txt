@@ -22,7 +22,7 @@ An e-mail [signature block](http://en.wikipedia.org/wiki/Signature_block "Signat
 
 == Installation ==
 
-1. Upload the entire `contact-form` folder to the `/wp-content/plugins/` directory.
+1. Upload the entire `send-e-mail` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Add a contact form to any post or page by inserting `[contact-form]` in the post.
 
