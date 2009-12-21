@@ -1,10 +1,10 @@
 === Send E-mail ===
 Contributors: paulox
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=10617157
-Tags: WordPress.com, contact form, email, contact, l10n, i18n, international, language, localization, .po file, .mo file, multilingual, plugin, akismet
-Stable tag: 1.1
+Tags: akismet, contact, contact form, email, i18n, international, l10n, language, localization, .mo file, multilingual, plugin, .po file, signature, wordpress.com
+Stable tag: 1.2
 Requires at least: 2.5
-Tested up to: 2.8
+Tested up to: 2.9
 
 Add a contact form to any post or page by inserting `[contact-form]` in the post. Emails will be sent to the post's author. As seen on WordPress.com.
 
@@ -16,7 +16,7 @@ Your email address is never shown, and the sender never learns it (unless you re
 
 As seen on WordPress.com.
 
-This plugin was imported from [Grunion Contact Form](http://wordpress.org/extend/plugins/grunion-contact-form/ "Grunion Contact Form - wordpress.org") but it adds full internazionalitazion using localized string from Wordpress core.
+This plugin was imported from [Grunion Contact Form](http://wordpress.org/extend/plugins/grunion-contact-form/ "Grunion Contact Form - wordpress.org") but it adds full internationalization using localized string from Wordpress core.
 
 An e-mail [signature block](http://en.wikipedia.org/wiki/Signature_block "Signature block - Wikipedia") was appended to the end of the e-mail message containing the sender's name, email address, website and IP and delimited from the body of the message by a single line consisting of exactly two hyphens, followed by a space, followed by the end of line ("-- \n"). This [signature cut line](http://tools.ietf.org/html/rfc3676#section-4.3 "Usenet Signature Convention - RFC3676 - IETF") allows software to automatically mark or remove the sig block.
 
@@ -30,11 +30,11 @@ An e-mail [signature block](http://en.wikipedia.org/wiki/Signature_block "Signat
 
 = What about localization ? =
 
-This plugin was full internazionalitazed beacuse use localized string from Wordpress core.
+This plugin was full internationalized because use localized string from Wordpress core.
 
 = What about spam? Will I get a lot from the contact form? =
 
-If you have [Akismet](http://akismet.com/ "Akismet Site") installed on your blog, you may get some spam, but you shouldn't get a lot.
+If you have [Akismet](http://akismet.com "Akismet Site") installed on your blog, you may get some spam, but you shouldn't get a lot.
 All the messages people send to you through the contact form will be filtered through Akismet.
 
 = Anyone can put whatever they want in the name and email boxes. How can I know who's really sending the message? =
@@ -60,14 +60,21 @@ Just make the title of your post "Contact Mary" or put "Hey, drop John a line wi
 
 == Changelog ==
 
+= 1.2 =
+* Tested with WordPress 2.9
+* Fix in the readme.txt
+
 = 1.1 =
 * Imported from Grunion Contact Form.
-* Added full internazionalitazion using localized string from Wordpress core.
+* Added full internationalization using localized string from Wordpress core.
 
 == Upgrade Notice ==
 
+= 1.2 =
+This version was tested with WordPress 2.9
+
 = 1.1 =
-* This version adds full internazionalitazion to plugin using localized string from Wordpress core.
+This version adds full internationalization to plugin using localized string from Wordpress core.
 
 == License ==
 

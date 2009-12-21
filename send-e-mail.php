@@ -2,11 +2,11 @@
 
 /*
 Plugin Name: Send E-mail
-Description: Add a contact form to any post just by inserting <code>[contact-form]</code> in the post.  Emails will be sent to the post's author.  As seen on WordPress.com.
+Description: Add a contact form to any post just by inserting <code>[contact-form]</code> in the post. Emails will be sent to the post's author. As seen on WordPress.com.
 Plugin URI: http://www.paulox.net/software-libero/send-e-mail
 Author: Paolo Melchiorre
 Author URI: http://www.paulox.net
-Version: 1.1
+Version: 1.2
 */
 
 // TODO: Move to shortcode API
